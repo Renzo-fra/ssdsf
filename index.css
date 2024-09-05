@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: georgia;
+}
+
+body {
+  background: linear-gradient(to top, #194409, #080b5b);
+  width: 100%;
+  height: auto;
+}
+
+main {
+  height: 96vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 16px;
+  align-items: center;
+}
+
+nav a {
+  padding: 16px;
+  margin: 16px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.container {
+  margin-top: 38px;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  background-color: #53085b;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2,
+ul,
+li,
+table,
+td,
+th,
+div {
+  color: #fff;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.table table {
+  border: 1px solid #000000;
+  border-collapse: collapse; /*hace que se peguen las lineas*/
+}
+
+.tipo_cambio,
+h2 {
+  text-align: center;
+}
+
+ul {
+  padding: 5px 20px;
+}
+
+table {
+  padding: 15px 20px;
+}
+
+.table table th,
+table td {
+  border: 1px solid #000000;
+}
+
+td {
+  text-align: center;
+  padding: 15px 20px;
+}
+
+th {
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.pagina {
+  font-size: 64px;
+  text-align: center;
+  color: #000000;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  color: white;
+  padding: 10px;
+  bottom: 0vh;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: cursive !important;
+}
